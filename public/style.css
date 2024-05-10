@@ -1,0 +1,10 @@
+#title {
+    color: blue;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Lebron {
+    flex: auto;
+    border: 5px green;
+}
