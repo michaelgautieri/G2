@@ -1,5 +1,6 @@
 import {useState} from 'react';
-import Cover from "./page.jsx";
+import Cover from "./pages/page.jsx";
+import Header from "../components/header.jsx";
 
 const App = () => {
     const [currentPage, setCurrentPage] = useState('page');
@@ -17,6 +18,7 @@ const App = () => {
     };
     return (
         <body>
+            <Header onPageChange={handlePageChange}/>
             {renderPage()}
         </body>
     );
