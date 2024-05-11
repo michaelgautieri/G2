@@ -4,7 +4,7 @@ import '../style.css';
 const Cover = () => {
     return (
     <body>
-        <h1 id="title">Website</h1>
+        <h1 id="title">G2</h1>
     </body>
     );
 };

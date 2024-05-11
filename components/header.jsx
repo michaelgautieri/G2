@@ -7,7 +7,6 @@ const Header = ({ onPageChange }) => {
       <header>
          <div>
             <Navbar2 onPageChange={onPageChange} />
-            <br></br>
             <Navbar onPageChange={onPageChange} />
          </div>
       </header>

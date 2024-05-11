@@ -4,8 +4,9 @@ body {
 
 #title {
     color: black;
-    font-size: 150;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
+    margin: 0px 0px;
 }
